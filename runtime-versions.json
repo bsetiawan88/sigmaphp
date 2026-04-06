@@ -1,0 +1,352 @@
+{
+  "version": "2.0.0",
+  "lastUpdated": "2026-04-06T16:10:00Z",
+  "supportedPlatforms": ["win32", "darwin"],
+  "wordpress": {
+    "versions": [
+      "6.9", "6.8", "6.7", "6.6", "6.5", "6.4", "6.3", "6.2", "6.1", "6.0",
+      "5.9", "5.8", "5.7", "5.6", "5.5", "5.4", "5.3", "5.2", "5.1", "5.0",
+      "4.9", "4.8", "4.7", "4.6", "4.5", "4.4", "4.3", "4.2", "4.1", "4.0",
+      "3.9", "3.8", "3.7", "3.6", "3.5", "3.4", "3.3", "3.2"
+    ],
+    "default": "6.9",
+    "downloadUrlPattern": "https://wordpress.org/wordpress-{version}.zip"
+  },
+  "laravel": {
+    "versions": [
+      "13.x", "12.x", "11.x", "10.x", "9.x", "8.x", "7.x", "6.x",
+      "5.8", "5.7", "5.6", "5.5", "5.4", "5.3", "5.2", "5.1", "5.0",
+      "4.2", "4.1", "4.0"
+    ],
+    "default": "13.x"
+  },
+  "php": {
+    "8.5": {
+      "detailed": "8.5.1",
+      "platforms": {
+        "win32": {
+          "url": "https://downloads.php.net/~windows/releases/archives/php-8.5.1-nts-Win32-vs17-x64.zip",
+          "xdebugUrl": "https://xdebug.org/files/php_xdebug-3.5.0-8.5-nts-vs17-x86_64.dll"
+        },
+        "darwin": {
+          "url": "https://www.php.net/distributions/php-8.5.1.tar.gz",
+          "xdebugUrl": "https://xdebug.org/files/xdebug-3.5.0.tgz",
+          "notes": "Requires compilation. Recommended: brew install php@8.5"
+        }
+      }
+    },
+    "8.4": {
+      "detailed": "8.4.3",
+      "platforms": {
+        "win32": {
+          "url": "https://downloads.php.net/~windows/releases/archives/php-8.4.3-nts-Win32-vs16-x64.zip",
+          "xdebugUrl": "https://xdebug.org/files/php_xdebug-3.5.0-8.4-nts-vs17-x86_64.dll"
+        },
+        "darwin": {
+          "url": "https://www.php.net/distributions/php-8.4.3.tar.gz",
+          "xdebugUrl": "https://xdebug.org/files/xdebug-3.5.0.tgz",
+          "notes": "Requires compilation. Recommended: brew install php@8.4"
+        }
+      }
+    },
+    "8.3": {
+      "detailed": "8.3.28",
+      "platforms": {
+        "win32": {
+          "url": "https://downloads.php.net/~windows/releases/archives/php-8.3.28-nts-Win32-vs16-x64.zip",
+          "xdebugUrl": "https://xdebug.org/files/php_xdebug-3.3.2-8.3-vs16-nts-x86_64.dll"
+        },
+        "darwin": {
+          "url": "https://www.php.net/distributions/php-8.3.28.tar.gz",
+          "xdebugUrl": "https://xdebug.org/files/xdebug-3.3.2.tgz",
+          "notes": "Requires compilation. Recommended: brew install php@8.3"
+        }
+      }
+    },
+    "8.2": {
+      "detailed": "8.2.27",
+      "platforms": {
+        "win32": {
+          "url": "https://downloads.php.net/~windows/releases/archives/php-8.2.27-nts-Win32-vs16-x64.zip",
+          "xdebugUrl": "https://xdebug.org/files/php_xdebug-3.3.2-8.2-vs16-nts-x86_64.dll"
+        },
+        "darwin": {
+          "url": "https://www.php.net/distributions/php-8.2.27.tar.gz",
+          "xdebugUrl": "https://xdebug.org/files/xdebug-3.3.2.tgz",
+          "notes": "Requires compilation. Recommended: brew install php@8.2"
+        }
+      }
+    },
+    "8.1": {
+      "detailed": "8.1.29",
+      "platforms": {
+        "win32": {
+          "url": "https://downloads.php.net/~windows/releases/archives/php-8.1.29-nts-Win32-vs16-x64.zip",
+          "xdebugUrl": "https://xdebug.org/files/php_xdebug-3.3.2-8.1-vs16-nts-x86_64.dll"
+        },
+        "darwin": {
+          "url": "https://www.php.net/distributions/php-8.1.29.tar.gz",
+          "xdebugUrl": "https://xdebug.org/files/xdebug-3.3.2.tgz",
+          "notes": "Requires compilation. Recommended: brew install php@8.1"
+        }
+      }
+    },
+    "8.0": {
+      "detailed": "8.0.30",
+      "platforms": {
+        "win32": {
+          "url": "https://downloads.php.net/~windows/releases/archives/php-8.0.30-nts-Win32-vs16-x64.zip",
+          "xdebugUrl": "https://xdebug.org/files/php_xdebug-3.3.2-8.0-vs16-nts-x86_64.dll"
+        },
+        "darwin": {
+          "url": "https://www.php.net/distributions/php-8.0.30.tar.gz",
+          "xdebugUrl": "https://xdebug.org/files/xdebug-3.3.2.tgz",
+          "notes": "Requires compilation. Recommended: brew install php@8.0"
+        }
+      }
+    },
+    "7.4": {
+      "detailed": "7.4.33",
+      "platforms": {
+        "win32": {
+          "url": "https://windows.php.net/downloads/releases/archives/php-7.4.33-nts-Win32-vc15-x64.zip",
+          "xdebugUrl": "https://xdebug.org/files/php_xdebug-2.9.7-7.4-vc15-x86_64.dll"
+        },
+        "darwin": {
+          "url": "https://www.php.net/distributions/php-7.4.33.tar.gz",
+          "xdebugUrl": "https://xdebug.org/files/xdebug-2.9.7.tgz",
+          "notes": "Requires compilation. Recommended: brew install php@7.4"
+        }
+      }
+    },
+    "7.3": {
+      "detailed": "7.3.33",
+      "platforms": {
+        "win32": {
+          "url": "https://windows.php.net/downloads/releases/archives/php-7.3.33-nts-Win32-VC15-x64.zip",
+          "xdebugUrl": "https://xdebug.org/files/php_xdebug-2.9.7-7.3-vc15-x86_64.dll"
+        },
+        "darwin": {
+          "url": "https://www.php.net/distributions/php-7.3.33.tar.gz",
+          "xdebugUrl": "https://xdebug.org/files/xdebug-2.9.7.tgz",
+          "notes": "Requires compilation. Recommended: brew install php@7.3"
+        }
+      }
+    },
+    "7.2": {
+      "detailed": "7.2.34",
+      "platforms": {
+        "win32": {
+          "url": "https://windows.php.net/downloads/releases/archives/php-7.2.34-nts-Win32-VC15-x64.zip",
+          "xdebugUrl": "https://xdebug.org/files/php_xdebug-2.9.7-7.2-vc15-x86_64.dll"
+        },
+        "darwin": {
+          "url": "https://www.php.net/distributions/php-7.2.34.tar.gz",
+          "xdebugUrl": "https://xdebug.org/files/xdebug-2.9.7.tgz",
+          "notes": "Requires compilation. Recommended: brew install php@7.2"
+        }
+      }
+    },
+    "7.1": {
+      "detailed": "7.1.33",
+      "platforms": {
+        "win32": {
+          "url": "https://windows.php.net/downloads/releases/archives/php-7.1.33-nts-Win32-VC14-x64.zip",
+          "xdebugUrl": "https://xdebug.org/files/php_xdebug-2.9.7-7.1-vc14-x86_64.dll"
+        },
+        "darwin": {
+          "url": "https://www.php.net/distributions/php-7.1.33.tar.gz",
+          "xdebugUrl": "https://xdebug.org/files/xdebug-2.9.7.tgz",
+          "notes": "Requires compilation. Recommended: brew install php@7.1"
+        }
+      }
+    },
+    "7.0": {
+      "detailed": "7.0.33",
+      "platforms": {
+        "win32": {
+          "url": "https://windows.php.net/downloads/releases/archives/php-7.0.33-nts-Win32-VC14-x64.zip",
+          "xdebugUrl": "https://xdebug.org/files/php_xdebug-2.6.1-7.0-vc14-x86_64.dll"
+        },
+        "darwin": {
+          "url": "https://www.php.net/distributions/php-7.0.33.tar.gz",
+          "xdebugUrl": "https://xdebug.org/files/xdebug-2.6.1.tgz",
+          "notes": "Requires compilation. Recommended: brew install php@7.0"
+        }
+      }
+    },
+    "5.6": {
+      "detailed": "5.6.40",
+      "platforms": {
+        "win32": {
+          "url": "https://windows.php.net/downloads/releases/archives/php-5.6.40-nts-Win32-VC11-x64.zip",
+          "xdebugUrl": "https://xdebug.org/files/php_xdebug-2.5.5-5.6-vc11-x86_64.dll"
+        },
+        "darwin": {
+          "url": "https://www.php.net/distributions/php-5.6.40.tar.gz",
+          "xdebugUrl": "https://xdebug.org/files/xdebug-2.5.5.tgz",
+          "notes": "Legacy version. Requires compilation."
+        }
+      }
+    },
+    "5.5": {
+      "detailed": "5.5.38",
+      "platforms": {
+        "win32": {
+          "url": "https://windows.php.net/downloads/releases/archives/php-5.5.38-nts-Win32-VC11-x64.zip",
+          "xdebugUrl": "https://xdebug.org/files/php_xdebug-2.5.5-5.5-vc11-x86_64.dll"
+        },
+        "darwin": {
+          "url": "https://www.php.net/distributions/php-5.5.38.tar.gz",
+          "xdebugUrl": "https://xdebug.org/files/xdebug-2.5.5.tgz",
+          "notes": "Legacy version. Requires compilation."
+        }
+      }
+    },
+    "5.4": {
+      "detailed": "5.4.45",
+      "platforms": {
+        "win32": {
+          "url": "https://windows.php.net/downloads/releases/archives/php-5.4.45-nts-Win32-VC9-x86.zip",
+          "xdebugUrl": "https://xdebug.org/files/php_xdebug-2.4.1-5.4-vc9-x86_64.dll"
+        },
+        "darwin": {
+          "url": "https://museum.php.net/php5/php-5.4.45.tar.gz",
+          "xdebugUrl": "https://xdebug.org/files/xdebug-2.4.1.tgz",
+          "notes": "Legacy version. Requires compilation."
+        }
+      }
+    },
+    "5.3": {
+      "detailed": "5.3.29",
+      "platforms": {
+        "win32": {
+          "url": "https://windows.php.net/downloads/releases/archives/php-5.3.29-nts-Win32-VC9-x86.zip",
+          "xdebugUrl": "https://xdebug.org/files/php_xdebug-2.2.7-5.3-vc9-x86_64.dll"
+        },
+        "darwin": {
+          "url": "https://museum.php.net/php5/php-5.3.29.tar.gz",
+          "xdebugUrl": "https://xdebug.org/files/xdebug-2.2.7.tgz",
+          "notes": "Legacy version. Requires compilation."
+        }
+      }
+    },
+    "5.2": {
+      "detailed": "5.2.17",
+      "platforms": {
+        "win32": {
+          "url": "https://windows.php.net/downloads/releases/archives/php-5.2.17-nts-Win32-VC6-x86.zip",
+          "xdebugUrl": "https://xdebug.org/files/php_xdebug-2.2.7-5.2-vc9-nts.dll"
+        },
+        "darwin": {
+          "url": "https://museum.php.net/php5/php-5.2.17.tar.gz",
+          "xdebugUrl": "https://xdebug.org/files/xdebug-2.2.7.tgz",
+          "notes": "Legacy version. Requires compilation."
+        }
+      }
+    }
+  },
+  "mysql": {
+    "8.0": {
+      "detailed": "8.0.41",
+      "platforms": {
+        "win32": {
+          "urls": [
+            "https://downloads.mysql.com/archives/get/p/23/file/mysql-8.0.30-winx64.zip",
+            "https://cdn.mysql.com/archives/mysql-8.0/mysql-8.0.30-winx64.zip",
+            "https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.30-winx64.zip"
+          ]
+        },
+        "darwin": {
+          "urls": [
+            "https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.41-macos14-arm64.tar.gz",
+            "https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.41-macos14-x86_64.tar.gz"
+          ],
+          "notes": "Choose ARM64 for Apple Silicon (M1/M2) or x86_64 for Intel Mac"
+        }
+      }
+    },
+    "5.7": {
+      "detailed": "5.7.44",
+      "platforms": {
+        "win32": {
+          "urls": [
+            "https://cdn.mysql.com/Downloads/MySQL-5.7/mysql-5.7.44-winx64.zip",
+            "https://downloads.mysql.com/archives/get/p/23/file/mysql-5.7.44-winx64.zip",
+            "https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.44-winx64.zip"
+          ]
+        },
+        "darwin": {
+          "urls": [
+            "https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.44-macos13-x86_64.tar.gz"
+          ],
+          "notes": "MySQL 5.7 only available for Intel Mac (x86_64)"
+        }
+      }
+    }
+  },
+  "mariadb": {
+    "10.11": {
+      "detailed": "10.11.10",
+      "platforms": {
+        "win32": {
+          "url": "https://archive.mariadb.org/mariadb-10.11.10/winx64-packages/mariadb-10.11.10-winx64.zip"
+        },
+        "darwin": {
+          "url": "https://archive.mariadb.org/mariadb-10.11.10/bintar-macos-arm64/mariadb-10.11.10-osx11-arm64.tar.gz",
+          "urls": [
+            "https://archive.mariadb.org/mariadb-10.11.10/bintar-macos-arm64/mariadb-10.11.10-osx11-arm64.tar.gz",
+            "https://archive.mariadb.org/mariadb-10.11.10/bintar-macos-x86_64/mariadb-10.11.10-osx11-x86_64.tar.gz"
+          ],
+          "notes": "Choose ARM64 for Apple Silicon (M1/M2) or x86_64 for Intel Mac"
+        }
+      }
+    }
+  },
+  "nginx": {
+    "1.26.2": {
+      "detailed": "1.26.2",
+      "platforms": {
+        "win32": {
+          "url": "https://nginx.org/download/nginx-1.26.2.zip"
+        },
+        "darwin": {
+          "url": "https://nginx.org/download/nginx-1.26.2.tar.gz",
+          "notes": "Requires compilation. Recommended: brew install nginx"
+        }
+      }
+    }
+  },
+  "apache": {
+    "2.4": {
+      "detailed": "2.4.62",
+      "platforms": {
+        "win32": {
+          "urls": [
+            "https://www.apachelounge.com/download/VS17/binaries/httpd-2.4.66-251206-Win64-VS17.zip"
+          ]
+        },
+        "darwin": {
+          "notes": "Apache comes pre-installed on macOS. Use built-in version or: brew install httpd"
+        }
+      }
+    }
+  },
+  "caddy": {
+    "2.7.6": {
+      "detailed": "2.7.6",
+      "platforms": {
+        "win32": {
+          "url": "https://caddyserver.com/api/download?os=windows&arch=amd64&p=github.com/caddyserver/replace-response&file=caddy.zip"
+        },
+        "darwin": {
+          "urls": [
+            "https://caddyserver.com/api/download?os=mac&arch=amd64&p=github.com/caddyserver/replace-response",
+            "https://caddyserver.com/api/download?os=mac&arch=arm64&p=github.com/caddyserver/replace-response"
+          ],
+          "notes": "Choose amd64 for Intel Mac or arm64 for Apple Silicon (M1/M2)"
+        }
+      }
+    }
+  }
+}
